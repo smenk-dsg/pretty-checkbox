@@ -1,6 +1,5 @@
-import checkbox from './checkbox';
-import radio from './radio';
+import survey from './survey';
+
 export default {
-  checkbox,
-  radio,
+  survey
 };

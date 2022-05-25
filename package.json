@@ -1,7 +1,7 @@
 {
-  "name": "@formio/pretty-checkbox",
-  "version": "1.4.0",
-  "description": "Use pretty checkboxes with Form.io",
+  "name": "formio-custom-template",
+  "version": "1.0.0",
+  "description": "",
   "main": "lib/module.js",
   "module": "node",
   "files": [
@@ -11,7 +11,7 @@
   "scripts": {
     "build:templates": "gulp templates",
     "build:dist": "tsc && gulp copy-styles && webpack && webpack --config webpack.prod.js",
-    "build": "npm run build:templates && npm run build:dist && gulp minify-css",
+    "build": "npm run build:templates && npm run build:dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Travis Tidwell <travis@form.io>",
@@ -31,6 +31,7 @@
     "formiojs": "^4.12.7",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
+    "gulp-ejs": "^5.1.0",
     "gulp-insert": "^0.5.0",
     "gulp-rename": "^2.0.0",
     "gulp-template": "^5.0.0",

@@ -1,10 +1,8 @@
 declare const _default: {
     bootstrap: {
-        checkbox: {
+        survey: {
             form: string;
-        };
-        radio: {
-            form: string;
+            html: string;
         };
     };
 };

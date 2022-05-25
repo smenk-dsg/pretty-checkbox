@@ -1,9 +1,7 @@
 declare const _default: {
-    checkbox: {
+    survey: {
         form: string;
-    };
-    radio: {
-        form: string;
+        html: string;
     };
 };
 export default _default;

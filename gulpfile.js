@@ -29,6 +29,7 @@ gulp.task('copy-styles', () => {
     .pipe(gulp.dest('lib/sass'));
 });
 
+/*
 gulp.task('minify-css', () => {
   return gulp.src('dist/formio-pretty-checkboxes.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
@@ -37,3 +38,4 @@ gulp.task('minify-css', () => {
     }))
     .pipe(gulp.dest('dist'));
 });
+*/
